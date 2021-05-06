@@ -1,0 +1,50 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 40705361529
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 40703549436
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 40702258621
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 40701868082
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 40700817686
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 40700388144
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 40699155998
+  }
+} ]

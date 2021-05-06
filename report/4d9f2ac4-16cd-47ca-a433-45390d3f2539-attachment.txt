@@ -1,0 +1,16 @@
+[32mINFO    [0m root:base.py:13 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d958f9f77bc320328c69e87238dac768")>
+[32mINFO    [0m root:page_mis_login.py:38 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+[32mINFO    [0m root:base.py:25 正在查找元素：('css selector', "[name='username']")
+[32mINFO    [0m root:base.py:39 正在对：('css selector', "[name='username']") 元素执行清空操作！
+[32mINFO    [0m root:base.py:42 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+[32mINFO    [0m root:base.py:25 正在查找元素：('css selector', "[name='password']")
+[32mINFO    [0m root:base.py:39 正在对：('css selector', "[name='password']") 元素执行清空操作！
+[32mINFO    [0m root:base.py:42 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+[32mINFO    [0m root:base.py:50 正在对：('css selector', '#inp1') 元素执行点击操作！
+[32mINFO    [0m root:base.py:25 正在查找元素：('css selector', '#inp1')
+[32mINFO    [0m root:base.py:13 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d958f9f77bc320328c69e87238dac768")>
+[32mINFO    [0m root:page_mis_audit.py:63 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+[32mINFO    [0m root:base.py:50 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+[32mINFO    [0m root:base.py:25 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+[32mINFO    [0m root:base.py:50 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+[32mINFO    [0m root:base.py:25 正在查找元素：('xpath', "//*[text()='内容审核']/.")

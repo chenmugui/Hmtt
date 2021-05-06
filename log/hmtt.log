@@ -1,0 +1,833 @@
+2021-05-06 15:00:53,738 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="75a392af1e0275e7bb4a89ee439abd86")>
+2021-05-06 15:00:53,783 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246810
+2021-05-06 15:00:53,792 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 15:00:53,805 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 15:00:53,847 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 15:00:53,984 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 15:00:54,001 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 15:00:54,036 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246810 操作！
+2021-05-06 15:00:55,140 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 15:00:55,141 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 15:00:55,212 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 15:01:25,596 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 15:01:41,484 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="8926f1a423ffa2a88d07f300d4cb5c5f")>
+2021-05-06 15:01:41,485 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 15:01:41,485 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 15:01:41,502 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 15:01:41,575 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 15:01:41,780 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 15:01:41,799 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 15:01:41,889 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 15:01:43,032 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 15:01:43,032 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 15:01:43,346 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="8926f1a423ffa2a88d07f300d4cb5c5f")>
+2021-05-06 15:01:43,352 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 15:01:45,354 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 15:01:45,356 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 15:02:17,394 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001609F9CF978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/8926f1a423ffa2a88d07f300d4cb5c5f
+2021-05-06 15:02:19,407 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160A0427198>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/8926f1a423ffa2a88d07f300d4cb5c5f
+2021-05-06 15:02:21,609 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160A0427240>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/8926f1a423ffa2a88d07f300d4cb5c5f
+2021-05-06 15:02:48,349 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="cf91b1698653e759e0a2156fe2ead98b")>
+2021-05-06 15:02:48,351 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 15:02:48,351 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 15:02:48,368 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 15:02:48,414 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 15:02:48,563 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 15:02:48,576 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 15:02:48,614 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 15:02:49,703 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 15:02:49,703 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 15:02:49,803 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 15:03:26,112 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 15:03:56,915 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="903b876c8c8aa0624335efb51d9c2e4a")>
+2021-05-06 15:03:56,916 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 15:03:56,916 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 15:03:56,933 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 15:03:56,976 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 15:03:57,116 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 15:03:57,147 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 15:03:57,209 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 15:03:58,323 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 15:03:58,323 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 15:03:58,402 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="903b876c8c8aa0624335efb51d9c2e4a")>
+2021-05-06 15:03:58,408 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 15:04:00,410 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 15:04:00,410 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 15:04:06,299 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[contains(text(),'发布文章')]") 元素执行点击操作！
+2021-05-06 15:04:06,299 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2021-05-06 15:04:07,381 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='文章名称']")
+2021-05-06 15:04:22,960 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行清空操作！
+2021-05-06 15:04:23,059 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行输入:test002-bj002 操作！
+2021-05-06 15:04:23,364 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2021-05-06 15:04:24,403 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#tinymce')
+2021-05-06 15:04:24,416 INFO [base.py(base_input:39)] - 正在对：('css selector', '#tinymce') 元素执行清空操作！
+2021-05-06 15:04:24,449 INFO [base.py(base_input:42)] - 正在对：('css selector', '#tinymce') 元素执行输入:今天炖火锅! 操作！
+2021-05-06 15:04:25,666 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='自动']") 元素执行点击操作！
+2021-05-06 15:04:25,666 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='自动']")
+2021-05-06 15:04:35,302 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="96f17a5a8079638d8339cc302321a8d6")>
+2021-05-06 15:04:35,304 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 15:04:35,304 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 15:04:35,329 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 15:04:35,379 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 15:04:35,452 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 15:04:35,474 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 15:04:35,510 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 15:04:35,604 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 15:04:35,604 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 15:04:35,678 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 15:04:36,285 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 15:04:36,285 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 15:04:46,558 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d958f9f77bc320328c69e87238dac768")>
+2021-05-06 15:04:46,559 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 15:04:46,559 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 15:04:46,582 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 15:04:46,617 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 15:04:46,683 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 15:04:46,702 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 15:04:46,733 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 15:04:46,898 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 15:04:46,899 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 15:04:46,984 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d958f9f77bc320328c69e87238dac768")>
+2021-05-06 15:04:46,985 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 15:04:47,986 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 15:04:47,986 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 15:04:53,088 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 15:04:53,088 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 15:04:57,341 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 15:04:57,341 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 15:04:59,348 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D67F1EB5F8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 15:05:01,358 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D67F1EB7F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 15:05:03,364 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D67F1EB9B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 15:05:06,783 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 15:05:06,783 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 15:05:08,786 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D67FD5F278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 15:05:10,794 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D67FD5F390>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 15:05:12,811 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D67FD5F0B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:09:36,277 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="1a2024e45c80b720b8e29760e3e0ccfa")>
+2021-05-06 17:09:36,299 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:09:36,299 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:09:36,331 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:09:36,380 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:09:36,612 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:09:36,621 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:09:36,656 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:09:37,788 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:09:37,790 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:09:37,896 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 17:10:08,087 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 17:10:20,693 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="43eac6e9e130635ae395317d63dd18c2")>
+2021-05-06 17:10:20,694 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:10:20,694 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:10:20,710 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:10:20,764 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:10:20,967 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:10:21,000 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:10:21,065 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:10:22,201 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:10:22,201 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:10:22,330 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="43eac6e9e130635ae395317d63dd18c2")>
+2021-05-06 17:10:22,332 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 17:10:24,332 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 17:10:24,332 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 17:10:30,332 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[contains(text(),'发布文章')]") 元素执行点击操作！
+2021-05-06 17:10:30,332 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2021-05-06 17:10:31,402 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='文章名称']")
+2021-05-06 17:10:46,336 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行清空操作！
+2021-05-06 17:10:46,700 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行输入:test002-bj002 操作！
+2021-05-06 17:10:47,045 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2021-05-06 17:10:48,091 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#tinymce')
+2021-05-06 17:10:48,101 INFO [base.py(base_input:39)] - 正在对：('css selector', '#tinymce') 元素执行清空操作！
+2021-05-06 17:10:48,129 INFO [base.py(base_input:42)] - 正在对：('css selector', '#tinymce') 元素执行输入:今天炖火锅! 操作！
+2021-05-06 17:10:49,394 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='自动']") 元素执行点击操作！
+2021-05-06 17:10:49,394 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='自动']")
+2021-05-06 17:11:00,269 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="6801e5ad42b027d902b5f319052378ae")>
+2021-05-06 17:11:00,274 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 17:11:00,274 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:11:00,289 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:11:00,326 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:11:00,432 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:11:00,451 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:11:00,482 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:11:00,628 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:11:00,628 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:11:00,703 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:11:01,269 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 17:11:01,269 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:11:12,097 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="f8dc177b6c5a185b5f373eddb49a8303")>
+2021-05-06 17:11:12,097 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 17:11:12,097 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:11:12,148 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:11:12,222 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:11:12,380 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:11:12,402 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:11:12,464 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:11:12,629 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:11:12,629 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:11:12,744 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="f8dc177b6c5a185b5f373eddb49a8303")>
+2021-05-06 17:11:12,746 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 17:11:13,747 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 17:11:13,747 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 17:11:18,943 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 17:11:18,943 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 17:11:22,655 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:11:22,655 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:11:24,684 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014B2C4550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:11:26,689 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014B2C43C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:11:28,693 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014B2C4320>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:11:32,216 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:11:32,216 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:11:34,217 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014B44B7B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:11:36,223 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014B44B3C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:11:38,227 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002014B63D518>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:29:12,207 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="9bec6649afeff0d7c36de8628c1606f1")>
+2021-05-06 17:29:12,233 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:29:12,263 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:29:12,322 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:29:12,419 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:29:12,567 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:29:12,584 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:29:12,651 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:29:13,769 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:29:13,769 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:29:13,870 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 17:29:43,999 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 17:29:54,984 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3b2e902c48b06c8e7a6b855ed35cd1ea")>
+2021-05-06 17:29:54,984 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:29:54,985 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:29:55,001 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:29:55,044 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:29:55,287 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:29:55,307 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:29:55,369 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:29:56,504 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:29:56,504 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:29:56,618 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3b2e902c48b06c8e7a6b855ed35cd1ea")>
+2021-05-06 17:29:56,621 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 17:29:58,622 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 17:29:58,623 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 17:30:03,580 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[contains(text(),'发布文章')]") 元素执行点击操作！
+2021-05-06 17:30:03,580 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2021-05-06 17:30:04,649 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='文章名称']")
+2021-05-06 17:30:19,510 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行清空操作！
+2021-05-06 17:30:19,565 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行输入:test002-bj002 操作！
+2021-05-06 17:30:20,125 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2021-05-06 17:30:21,168 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#tinymce')
+2021-05-06 17:30:21,183 INFO [base.py(base_input:39)] - 正在对：('css selector', '#tinymce') 元素执行清空操作！
+2021-05-06 17:30:21,207 INFO [base.py(base_input:42)] - 正在对：('css selector', '#tinymce') 元素执行输入:今天炖火锅! 操作！
+2021-05-06 17:30:22,451 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='自动']") 元素执行点击操作！
+2021-05-06 17:30:22,451 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='自动']")
+2021-05-06 17:30:33,493 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="5ed0adcb25aae5553059342c288b6853")>
+2021-05-06 17:30:33,495 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 17:30:33,495 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:30:33,516 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:30:33,585 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:30:33,726 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:30:33,755 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:30:33,832 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:30:34,001 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:30:34,001 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:30:34,119 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:30:34,915 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 17:30:34,915 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:30:46,400 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="8d9ebebf8ca17eda507f226bfd1c23cc")>
+2021-05-06 17:30:46,400 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 17:30:46,400 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:30:46,420 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:30:46,454 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:30:46,550 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:30:46,585 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:30:46,631 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:30:46,770 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:30:46,770 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:30:46,849 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="8d9ebebf8ca17eda507f226bfd1c23cc")>
+2021-05-06 17:30:46,850 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 17:30:47,851 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 17:30:47,851 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 17:30:52,870 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 17:30:52,870 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 17:30:56,919 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:30:56,919 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:30:58,930 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A632874668>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:31:00,938 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A6328741D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:31:02,941 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A6328743C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:31:06,385 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:31:06,385 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:31:08,387 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A632B6D710>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:31:10,390 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A632B6D908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:31:12,397 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A632B6D240>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:39:57,666 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="5914b74b29e7bea3644ef5abd6b76e9c")>
+2021-05-06 17:39:57,672 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:39:57,673 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:39:57,698 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:39:57,766 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:39:57,967 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:39:58,003 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:39:58,061 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:39:59,218 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:39:59,218 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:39:59,369 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 17:40:30,125 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 17:40:46,966 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="25d0bfcb53fc8c3b999c1be9b23578cd")>
+2021-05-06 17:40:46,966 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:40:46,966 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:40:46,979 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:40:47,018 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:40:47,166 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:40:47,196 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:40:47,231 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:40:48,332 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:40:48,332 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:40:48,410 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="25d0bfcb53fc8c3b999c1be9b23578cd")>
+2021-05-06 17:40:48,412 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 17:40:50,414 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 17:40:50,414 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 17:41:33,595 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="fa15e18926158351a216a63c9b49f99e")>
+2021-05-06 17:41:33,597 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 17:41:33,597 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:41:33,659 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:41:33,737 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:41:33,913 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:41:33,984 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:41:34,133 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:41:34,364 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:41:34,365 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:41:34,452 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:41:35,285 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 17:41:35,286 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:41:46,860 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="88c7e2250f2b54a4cb35da5ebce71f76")>
+2021-05-06 17:41:46,860 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 17:41:46,860 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:41:46,872 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:41:46,916 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:41:46,997 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:41:47,018 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:41:47,055 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:41:47,203 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:41:47,203 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:41:47,299 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="88c7e2250f2b54a4cb35da5ebce71f76")>
+2021-05-06 17:41:47,300 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 17:41:48,300 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 17:41:48,300 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 17:41:53,223 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 17:41:53,224 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 17:41:56,902 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:41:56,902 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:41:58,914 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C568478518>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:42:00,925 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C568478710>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:42:02,929 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C568478860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:42:06,418 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:42:06,418 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:42:08,421 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C568803208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:42:10,425 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C568803390>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:42:12,435 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C5688033C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:46:44,929 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="f1c95aee9d37d6756725061b262e8ae4")>
+2021-05-06 17:46:44,933 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:46:44,933 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:46:44,954 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:46:45,042 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:46:45,242 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:46:45,256 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:46:45,299 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:46:46,385 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:46:46,385 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:46:46,450 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 17:47:16,825 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 17:47:28,950 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="9a9372c8ac6071aaae07a57ab42a9d4f")>
+2021-05-06 17:47:28,950 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 17:47:28,950 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 17:47:28,968 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 17:47:29,045 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 17:47:29,200 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 17:47:29,233 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 17:47:29,337 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 17:47:30,506 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 17:47:30,507 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 17:47:30,563 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="9a9372c8ac6071aaae07a57ab42a9d4f")>
+2021-05-06 17:47:30,566 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 17:47:32,567 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 17:47:32,567 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 17:48:14,997 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="cdf0b7af243e6e367c07c34c4d1c67aa")>
+2021-05-06 17:48:14,998 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 17:48:14,998 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:48:15,031 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:48:15,075 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:48:15,194 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:48:15,214 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:48:15,290 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:48:15,468 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:48:15,468 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:48:15,584 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:48:16,466 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 17:48:16,466 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 17:48:31,895 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3fb9284755346afacdc1e192d274ad7f")>
+2021-05-06 17:48:31,895 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 17:48:31,895 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 17:48:31,916 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 17:48:32,084 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 17:48:32,520 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 17:48:32,536 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 17:48:32,623 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 17:48:32,738 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 17:48:32,738 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 17:48:32,869 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3fb9284755346afacdc1e192d274ad7f")>
+2021-05-06 17:48:32,870 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 17:48:33,870 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 17:48:33,870 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 17:48:34,988 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 17:48:34,989 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 17:48:35,366 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入: 文章名称']")
+2021-05-06 17:48:35,380 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素执行清空操作！
+2021-05-06 17:48:35,437 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素执行输入:test002-bj002 操作！
+2021-05-06 17:48:35,557 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入: 频道']")
+2021-05-06 17:48:35,606 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素执行清空操作！
+2021-05-06 17:48:36,211 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素执行输入:数据库 操作！
+2021-05-06 17:48:36,419 INFO [web_base.py(web_base_click_element:16)] - 正在调用web专属点击封装方法
+2021-05-06 17:48:36,419 INFO [base.py(base_click:50)] - 正在对：('css selector', "[placeholder='请选择状态']") 元素执行点击操作！
+2021-05-06 17:48:36,419 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请选择状态']")
+2021-05-06 17:48:37,630 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='待审核']") 元素执行点击操作！
+2021-05-06 17:48:37,631 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='待审核']")
+2021-05-06 17:48:41,679 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:48:41,680 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:48:43,989 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017788916710>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:48:46,264 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017788916278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:48:48,565 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000177889163C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:48:52,049 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 17:48:52,049 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 17:48:54,053 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017788C830B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:48:56,057 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017788C83320>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 17:48:58,062 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017788C83470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:07:12,130 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="42cc8aac9ec99a4cf26e0d5808dfa26c")>
+2021-05-06 18:07:12,154 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:07:12,154 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:07:12,303 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:07:12,396 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:07:12,545 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:07:12,558 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:07:12,586 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:07:13,730 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:07:13,730 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:07:13,802 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 18:07:21,963 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user-name') 元素获取文本操作！，获取的文本值：13812345678
+2021-05-06 18:07:21,963 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 18:07:49,114 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="9f6d4a52db2b37d1d73b3d52a9226dcd")>
+2021-05-06 18:07:49,115 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:07:49,115 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:07:49,132 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:07:49,175 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:07:49,378 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:07:49,400 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:07:49,444 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:07:50,582 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:07:50,582 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:07:51,048 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="9f6d4a52db2b37d1d73b3d52a9226dcd")>
+2021-05-06 18:07:51,083 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 18:07:53,084 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 18:07:53,084 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 18:08:49,558 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="e29c69882307b102dee7e86aeb3a1ab5")>
+2021-05-06 18:08:49,560 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 18:08:49,560 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:08:49,588 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:08:49,677 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:08:49,845 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:08:49,868 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:08:49,930 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:08:50,183 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:08:50,184 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:08:50,270 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:08:51,028 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 18:08:51,029 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:09:02,786 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="142ba6cecaf6c8648f59a253a09ba568")>
+2021-05-06 18:09:02,787 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 18:09:02,787 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:09:02,807 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:09:02,851 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:09:02,977 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:09:03,053 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:09:03,099 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:09:03,253 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:09:03,253 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:09:03,379 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="142ba6cecaf6c8648f59a253a09ba568")>
+2021-05-06 18:09:03,382 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 18:09:04,382 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 18:09:04,382 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 18:09:10,383 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 18:09:10,383 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 18:09:14,632 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:09:14,632 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:09:16,643 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E6451400>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:09:18,651 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E6451160>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:09:20,653 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E6451080>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:09:24,197 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:09:24,197 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:09:26,201 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E67476D8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:09:28,204 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E6747C50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:09:30,210 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E6747CC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:13:40,636 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="7d9009403c0110d4e705b505a4c71b22")>
+2021-05-06 18:13:40,641 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:13:40,641 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:13:40,662 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:13:40,716 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:13:40,861 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:13:40,871 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:13:40,916 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:13:42,079 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:13:42,079 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:13:42,148 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 18:14:12,455 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 18:14:34,416 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="45c83231ff7d450ee0f0fc325406d412")>
+2021-05-06 18:14:34,417 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:14:34,417 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:14:34,434 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:14:34,529 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:14:34,722 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:14:34,763 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:14:34,820 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:14:36,047 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:14:36,047 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:14:36,169 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="45c83231ff7d450ee0f0fc325406d412")>
+2021-05-06 18:14:36,171 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 18:14:38,174 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 18:14:38,174 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 18:14:43,411 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[contains(text(),'发布文章')]") 元素执行点击操作！
+2021-05-06 18:14:43,412 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2021-05-06 18:14:44,611 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='文章名称']")
+2021-05-06 18:14:59,521 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行清空操作！
+2021-05-06 18:14:59,587 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行输入:test002-bj002 操作！
+2021-05-06 18:15:00,019 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2021-05-06 18:15:03,558 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#tinymce')
+2021-05-06 18:15:03,582 INFO [base.py(base_input:39)] - 正在对：('css selector', '#tinymce') 元素执行清空操作！
+2021-05-06 18:15:03,631 INFO [base.py(base_input:42)] - 正在对：('css selector', '#tinymce') 元素执行输入:今天炖火锅! 操作！
+2021-05-06 18:15:05,103 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='自动']") 元素执行点击操作！
+2021-05-06 18:15:05,103 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='自动']")
+2021-05-06 18:15:49,952 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="0c6c2a3d95e7e3ea276d654800bbac06")>
+2021-05-06 18:15:49,954 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 18:15:49,954 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:15:50,010 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:15:50,518 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:15:50,737 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:15:50,782 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:15:50,971 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:15:51,751 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:15:51,752 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:15:52,109 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:15:58,922 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 18:15:58,923 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:16:15,745 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="8ebf1993d723fc81aa30d6d582b42ff3")>
+2021-05-06 18:16:15,746 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 18:16:15,746 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:16:15,857 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:16:15,965 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:16:16,169 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:16:16,206 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:16:16,294 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:16:16,503 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:16:16,503 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:16:16,687 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="8ebf1993d723fc81aa30d6d582b42ff3")>
+2021-05-06 18:16:16,688 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 18:16:17,691 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 18:16:17,692 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 18:16:19,697 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 18:16:19,697 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 18:16:23,992 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:16:23,993 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:16:26,041 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58A954E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:16:28,049 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58A951D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:16:30,052 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58A95320>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:16:33,739 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:16:33,741 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:16:35,874 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58D8CE10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:16:38,156 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58D8C828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:16:40,165 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58D8C048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:31:50,385 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="7574755503d2edf65748351b25c004ca")>
+2021-05-06 18:31:50,386 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:31:50,386 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:31:50,452 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:31:50,568 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:31:50,811 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:31:50,850 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:31:50,970 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:31:52,111 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:31:52,111 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:31:52,280 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 18:32:22,602 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 18:32:39,157 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d1a3e506135be816ef398293507f0f36")>
+2021-05-06 18:32:39,158 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:32:39,158 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:32:39,183 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:32:39,237 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:32:39,378 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:32:39,392 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:32:39,433 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:32:40,551 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:32:40,551 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:32:40,618 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d1a3e506135be816ef398293507f0f36")>
+2021-05-06 18:32:40,620 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 18:32:42,621 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 18:32:42,621 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 18:33:28,081 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="a9a95b82af84639780902e5908aa3473")>
+2021-05-06 18:33:28,083 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 18:33:28,083 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:33:28,095 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:33:28,144 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:33:28,255 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:33:28,282 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:33:28,327 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:33:28,524 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:33:28,525 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:33:28,682 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:33:31,110 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 18:33:31,110 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:33:46,186 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="2e10acfac7d02477018772b8bf7daa5a")>
+2021-05-06 18:33:46,186 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 18:33:46,186 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:33:46,215 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:33:46,264 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:33:46,351 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:33:46,367 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:33:46,409 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:33:46,518 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:33:46,519 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:33:46,639 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="2e10acfac7d02477018772b8bf7daa5a")>
+2021-05-06 18:33:46,640 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 18:33:47,641 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 18:33:47,641 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 18:33:50,012 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 18:33:50,012 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 18:33:54,005 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:33:54,006 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:33:56,032 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA5685F8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:33:58,092 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA568780>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:34:00,097 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA568898>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:34:04,133 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:34:04,134 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:34:06,136 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA8F4128>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:34:08,142 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA8F4390>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:34:10,148 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA8F44E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:38:09,851 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="b2e5330a1f8c6ed8ed925463dc37841c")>
+2021-05-06 18:38:09,852 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:38:09,852 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:38:09,884 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:38:09,933 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:38:10,135 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:38:10,167 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:38:10,252 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:38:11,437 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:38:11,437 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:38:11,662 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 18:38:41,994 ERROR [test01_mp_login.py(test_mp_login:34)] - 断言出错，错误信息：Message: 
+
+2021-05-06 18:39:00,901 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d3e2b9ed6934a2ef917c654220ec4d91")>
+2021-05-06 18:39:00,901 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 18:39:00,901 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 18:39:00,918 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 18:39:00,961 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 18:39:01,090 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 18:39:01,118 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 18:39:01,200 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 18:39:02,392 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 18:39:02,394 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 18:39:02,478 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="d3e2b9ed6934a2ef917c654220ec4d91")>
+2021-05-06 18:39:02,480 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 18:39:04,480 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 18:39:04,480 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 18:39:49,852 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="dc1b4fcebf18431a53cc413a440aab40")>
+2021-05-06 18:39:49,853 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 18:39:49,853 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:39:49,867 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:39:49,936 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:39:50,049 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:39:50,068 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:39:50,109 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:39:50,577 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:39:50,577 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:39:51,060 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:39:53,221 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 18:39:53,222 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 18:40:07,948 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="9bd6e3435299c3b7e545986dc04cdce3")>
+2021-05-06 18:40:07,948 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 18:40:07,948 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 18:40:07,966 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 18:40:08,013 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 18:40:08,100 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 18:40:08,133 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 18:40:08,249 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 18:40:08,510 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 18:40:08,510 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 18:40:08,670 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="9bd6e3435299c3b7e545986dc04cdce3")>
+2021-05-06 18:40:08,671 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 18:40:09,671 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 18:40:09,671 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 18:40:12,686 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 18:40:12,686 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 18:40:24,487 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:40:24,487 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:40:26,498 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E766516710>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:40:28,514 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E7665167B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:40:30,517 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E766516978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:40:34,676 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 18:40:34,676 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 18:40:36,681 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E7668C32E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:40:38,684 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E7668C3358>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 18:40:40,688 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E7668C3550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:00:23,267 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="b71aba7d114ee17c71cd8ce78f85f6ff")>
+2021-05-06 19:00:23,268 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 19:00:23,293 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 19:00:23,432 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 19:00:23,782 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 19:00:23,953 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 19:00:23,969 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 19:00:24,020 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 19:00:25,136 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 19:00:25,136 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 19:00:25,301 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 19:00:27,087 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user-name') 元素获取文本操作！，获取的文本值：13812345678
+2021-05-06 19:00:27,087 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 19:00:42,832 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="de616dfaabb4764300661058a9ab10e9")>
+2021-05-06 19:00:42,832 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 19:00:42,832 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 19:00:42,850 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 19:00:42,915 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 19:00:43,094 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 19:00:43,111 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 19:00:43,221 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 19:00:44,452 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 19:00:44,452 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 19:00:44,598 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="de616dfaabb4764300661058a9ab10e9")>
+2021-05-06 19:00:44,602 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 19:00:46,603 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 19:00:46,603 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 19:00:53,594 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[contains(text(),'发布文章')]") 元素执行点击操作！
+2021-05-06 19:00:53,595 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2021-05-06 19:00:54,700 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='文章名称']")
+2021-05-06 19:01:11,199 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行清空操作！
+2021-05-06 19:01:11,249 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行输入:test002-bj002 操作！
+2021-05-06 19:01:11,631 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2021-05-06 19:01:13,468 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#tinymce')
+2021-05-06 19:01:13,486 INFO [base.py(base_input:39)] - 正在对：('css selector', '#tinymce') 元素执行清空操作！
+2021-05-06 19:01:13,526 INFO [base.py(base_input:42)] - 正在对：('css selector', '#tinymce') 元素执行输入:今天炖火锅! 操作！
+2021-05-06 19:01:14,769 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='自动']") 元素执行点击操作！
+2021-05-06 19:01:14,769 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='自动']")
+2021-05-06 19:01:30,251 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="6a680f3ffb4fc639bf46d2ddf7856730")>
+2021-05-06 19:01:30,251 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 19:01:30,252 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 19:01:30,282 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 19:01:30,375 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 19:01:30,478 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 19:01:30,504 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 19:01:30,602 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 19:01:30,776 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 19:01:30,776 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 19:01:30,992 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 19:01:33,015 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 19:01:33,015 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 19:01:47,881 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="f6b0f7646b8b3e1a0475c9acaf39d283")>
+2021-05-06 19:01:47,881 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 19:01:47,881 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 19:01:47,894 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 19:01:47,931 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 19:01:48,000 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 19:01:48,020 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 19:01:48,065 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 19:01:48,165 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 19:01:48,166 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 19:01:48,267 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="f6b0f7646b8b3e1a0475c9acaf39d283")>
+2021-05-06 19:01:48,267 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 19:01:49,268 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 19:01:49,268 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 19:01:51,187 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 19:01:51,187 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 19:01:55,865 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 19:01:55,865 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 19:01:57,876 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA65601E10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:01:59,885 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA65601F60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:02:01,895 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA65601208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:02:05,487 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 19:02:05,487 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 19:02:07,491 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA6578A208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:02:09,494 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA6578A710>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:02:11,497 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA660F70B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:30:27,960 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="b1ff5fa2c1cb9c530d545a3e28167623")>
+2021-05-06 19:30:28,015 INFO [page_mp_login.py(page_mp_login:35)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 19:30:28,015 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 19:30:28,072 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 19:30:28,211 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 19:30:28,509 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 19:30:28,537 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 19:30:28,618 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 19:30:29,851 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 19:30:29,851 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 19:30:29,964 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 19:30:39,235 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user-name') 元素获取文本操作！，获取的文本值：13812345678
+2021-05-06 19:30:39,236 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user-name')
+2021-05-06 19:30:56,202 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="6654072d4c2c7176ad0d529f9ccf4e30")>
+2021-05-06 19:30:56,203 INFO [page_mp_login.py(page_mp_login_success:43)] - 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+2021-05-06 19:30:56,203 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+2021-05-06 19:30:56,252 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+2021-05-06 19:30:56,432 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+2021-05-06 19:30:56,933 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='验证码']")
+2021-05-06 19:30:57,166 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+2021-05-06 19:30:57,423 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+2021-05-06 19:30:58,648 INFO [base.py(base_click:50)] - 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+2021-05-06 19:30:58,649 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.el-button--primary')
+2021-05-06 19:30:58,970 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="6654072d4c2c7176ad0d529f9ccf4e30")>
+2021-05-06 19:30:58,973 INFO [page_mp_article.py(page_mp_article:58)] - 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+2021-05-06 19:31:00,974 INFO [base.py(base_click:50)] - 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+2021-05-06 19:31:00,976 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+2021-05-06 19:31:07,320 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[contains(text(),'发布文章')]") 元素执行点击操作！
+2021-05-06 19:31:07,320 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+2021-05-06 19:31:08,431 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[placeholder='文章名称']")
+2021-05-06 19:31:23,947 INFO [base.py(base_input:39)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行清空操作！
+2021-05-06 19:31:23,988 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='文章名称']") 元素执行输入:test002-bj002 操作！
+2021-05-06 19:31:24,381 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#publishTinymce_ifr')
+2021-05-06 19:31:25,947 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#tinymce')
+2021-05-06 19:31:25,965 INFO [base.py(base_input:39)] - 正在对：('css selector', '#tinymce') 元素执行清空操作！
+2021-05-06 19:31:25,995 INFO [base.py(base_input:42)] - 正在对：('css selector', '#tinymce') 元素执行输入:今天炖火锅! 操作！
+2021-05-06 19:31:27,266 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='自动']") 元素执行点击操作！
+2021-05-06 19:31:27,266 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='自动']")
+2021-05-06 19:31:41,892 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="372ec3e6430fe0430fbd5420bf0ff4d5")>
+2021-05-06 19:31:41,895 INFO [page_mis_login.py(page_mis_login:31)] - 正在调用后台管理系统登录业务方法，用户名：testid 密码：testpwd123
+2021-05-06 19:31:41,895 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 19:31:41,909 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 19:31:41,945 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 19:31:42,038 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 19:31:42,057 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 19:31:42,096 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 19:31:42,467 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 19:31:42,467 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 19:31:42,601 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 19:31:44,509 INFO [base.py(base_get_text:60)] - 正在对：('css selector', '.user_info') 元素获取文本操作！，获取的文本值：欢迎 test-管理员
+2021-05-06 19:31:44,509 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '.user_info')
+2021-05-06 19:31:58,970 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="4f2d12f32a6b8f83738da3ee636480d7")>
+2021-05-06 19:31:58,970 INFO [page_mis_login.py(page_mis_login_success:38)] - 正在调用后台管理系统成功登录依赖方法，用户名：testid 密码：testpwd123
+2021-05-06 19:31:58,971 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='username']")
+2021-05-06 19:31:58,992 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='username']") 元素执行清空操作！
+2021-05-06 19:31:59,030 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素执行输入:testid 操作！
+2021-05-06 19:31:59,102 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', "[name='password']")
+2021-05-06 19:31:59,116 INFO [base.py(base_input:39)] - 正在对：('css selector', "[name='password']") 元素执行清空操作！
+2021-05-06 19:31:59,152 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素执行输入:testpwd123 操作！
+2021-05-06 19:31:59,252 INFO [base.py(base_click:50)] - 正在对：('css selector', '#inp1') 元素执行点击操作！
+2021-05-06 19:31:59,252 INFO [base.py(base_find:25)] - 正在查找元素：('css selector', '#inp1')
+2021-05-06 19:31:59,349 INFO [base.py(__init__:13)] - 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="4f2d12f32a6b8f83738da3ee636480d7")>
+2021-05-06 19:31:59,350 INFO [page_mis_audit.py(page_mis_audit:63)] - 正在调用审核文章业务方法，title: test002-bj002 channel：数据库
+2021-05-06 19:32:00,351 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='信息管理']/.") 元素执行点击操作！
+2021-05-06 19:32:00,351 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='信息管理']/.")
+2021-05-06 19:32:02,225 INFO [base.py(base_click:50)] - 正在对：('xpath', "//*[text()='内容审核']/.") 元素执行点击操作！
+2021-05-06 19:32:02,225 INFO [base.py(base_find:25)] - 正在查找元素：('xpath', "//*[text()='内容审核']/.")
+2021-05-06 19:32:07,927 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 19:32:07,927 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 19:32:09,931 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731C457B70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:32:11,934 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731C457D68>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:32:13,940 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731C457EF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:32:17,580 INFO [remote_connection.py(__init__:117)] - Could not connect to port 4723 on host 127.0.0.1
+2021-05-06 19:32:17,580 INFO [remote_connection.py(__init__:136)] - Could not get IP address for host: 127.0.0.1
+2021-05-06 19:32:19,584 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731C61C208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:32:21,587 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731CF86CC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2021-05-06 19:32:23,590 WARNING [connectionpool.py(urlopen:662)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731CF86400>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session

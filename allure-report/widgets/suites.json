@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c",
+    "name" : "scripts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "d2ac283b41b6cba68061549fd3d1953c",
+    "name" : "scripts.test01_mp_login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "254adfeceda15e19030ee79af91190ef",
+    "name" : "scripts.test02_mp_article",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "797a6d5481176f5b2aec047076b37c18",
+    "name" : "scripts.test03_mis_login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c211fdcce0d023047bc8e25992ca5d80",
+    "name" : "scripts.test04_mis_audit",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "8c6d3aa11dd4bb7043cdf22418e17232",
+    "name" : "scripts.test05_app_login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fa09556a37b4832549a280499d627b60",
+    "name" : "scripts.test06_app_article",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

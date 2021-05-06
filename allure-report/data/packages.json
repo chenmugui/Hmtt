@@ -1,0 +1,215 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test01_mp_login",
+      "children" : [ {
+        "name" : "TestMpLogin.test_mp_login[13812345678-246810-13812345678]",
+        "uid" : "cec2b3b93d2cf2b0",
+        "parentUid" : "3e2e624d65d218f3f22771c18a4a78a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579595375050,
+          "stop" : 1579595380059,
+          "duration" : 5009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mp_login[13812345678-246810-13812345678]",
+        "uid" : "74d142bff5979ce7",
+        "parentUid" : "3e2e624d65d218f3f22771c18a4a78a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620284453784,
+          "stop" : 1620284486693,
+          "duration" : 32909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'246810'", "'13812345678'", "'13812345678'" ]
+      }, {
+        "name" : "test_mp_login[13812345678-246811-13812345678]",
+        "uid" : "e6566627d4f3c800",
+        "parentUid" : "3e2e624d65d218f3f22771c18a4a78a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620300628015,
+          "stop" : 1620300640045,
+          "duration" : 12030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'246811'", "'13812345678'", "'13812345678'" ]
+      } ],
+      "uid" : "3e2e624d65d218f3f22771c18a4a78a8"
+    }, {
+      "name" : "test02_mp_article",
+      "children" : [ {
+        "name" : "TestMpArticle.test_mp_article[test002-bj002-\\u4eca\\u5929\\u7096\\u706b\\u9505!-\\u65b0\\u589e\\u6587\\u7ae0\\u6210\\u529f-\\u6570\\u636e\\u5e93]",
+        "uid" : "f192f24d96a9038e",
+        "parentUid" : "fcf87eb13832bae7b331d69cac198ea1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579595380288,
+          "stop" : 1579595392848,
+          "duration" : 12560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mp_article[test002-bj002-今天炖火锅!-新增文章成功-数据库]",
+        "uid" : "bd73c0dc978c4dde",
+        "parentUid" : "fcf87eb13832bae7b331d69cac198ea1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300658974,
+          "stop" : 1620300687343,
+          "duration" : 28369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'数据库'", "'今天炖火锅!'", "'新增文章成功'", "'test002-bj002'" ]
+      } ],
+      "uid" : "fcf87eb13832bae7b331d69cac198ea1"
+    }, {
+      "name" : "test03_mis_login",
+      "children" : [ {
+        "name" : "TestMisLogin.test_mis_login[testid-testpwd123-\\u7ba1\\u7406\\u5458]",
+        "uid" : "c4754c0aa7e2db5e",
+        "parentUid" : "9eb89e606305d90bcdb5e3973b3091e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579595392926,
+          "stop" : 1579595397066,
+          "duration" : 4140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mis_login[testid-testpwd123-管理员]",
+        "uid" : "c3e99c95cde04a30",
+        "parentUid" : "9eb89e606305d90bcdb5e3973b3091e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620300701894,
+          "stop" : 1620300704532,
+          "duration" : 2638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'管理员'", "'testpwd123'", "'testid'" ]
+      } ],
+      "uid" : "9eb89e606305d90bcdb5e3973b3091e5"
+    }, {
+      "name" : "test04_mis_audit",
+      "children" : [ {
+        "name" : "TestMisAudit.test_mis_audit",
+        "uid" : "3a841cf1f1a60db2",
+        "parentUid" : "40c42342a349d47e3ecd5c5962dd274b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579595397136,
+          "stop" : 1579595413361,
+          "duration" : 16225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_mis_audit",
+        "uid" : "192302ab174b00d9",
+        "parentUid" : "40c42342a349d47e3ecd5c5962dd274b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300719350,
+          "stop" : 1620300724036,
+          "duration" : 4686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40c42342a349d47e3ecd5c5962dd274b"
+    }, {
+      "name" : "test05_app_login",
+      "children" : [ {
+        "name" : "TestAppLogin.test_app_login[13812345678-246810]",
+        "uid" : "ed2185feb0bd8154",
+        "parentUid" : "2d17b2f1c0a41cb03ff1824bd4f9ebb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579595413436,
+          "stop" : 1579595435679,
+          "duration" : 22243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_app_login[13812345678-246810]",
+        "uid" : "949926c5c53c8648",
+        "parentUid" : "2d17b2f1c0a41cb03ff1824bd4f9ebb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619163497072,
+          "stop" : 1619163519940,
+          "duration" : 22868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'246810'", "'13812345678'" ]
+      }, {
+        "name" : "test_app_login[13812345678-246811]",
+        "uid" : "a73c1eb104daecb8",
+        "parentUid" : "2d17b2f1c0a41cb03ff1824bd4f9ebb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300726923,
+          "stop" : 1620300726923,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'246811'", "'13812345678'" ]
+      } ],
+      "uid" : "2d17b2f1c0a41cb03ff1824bd4f9ebb3"
+    }, {
+      "name" : "test06_app_article",
+      "children" : [ {
+        "name" : "TestAppArticle.test_app_article[python-Python]",
+        "uid" : "6adf36edbd525617",
+        "parentUid" : "f83eb81acd3d9fab2786f050f4ccbd3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579595437940,
+          "stop" : 1579595470693,
+          "duration" : 32753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_app_article[python-Python]",
+        "uid" : "e1a9d819efd1817f",
+        "parentUid" : "f83eb81acd3d9fab2786f050f4ccbd3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300736579,
+          "stop" : 1620300736579,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'python'", "'Python'" ]
+      } ],
+      "uid" : "f83eb81acd3d9fab2786f050f4ccbd3a"
+    } ],
+    "uid" : "8083a48773cbfbc2897cb0336273acc5"
+  } ]
+}

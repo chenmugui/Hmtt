@@ -1,0 +1,15 @@
+[32mINFO    [0m root:base.py:13 正在初始化driver: <appium.webdriver.webdriver.WebDriver (session="b668c3e2-a869-4e21-b532-b8e2925bc5fa")>
+[32mINFO    [0m root:page_app_login.py:37 正在调用app应用登录业务方法 手机号:13812345678 验证码: 246810
+[32mINFO    [0m root:base.py:25 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+[32mINFO    [0m root:base.py:39 正在对：('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素执行清空操作！
+[32mINFO    [0m root:base.py:42 正在对：('xpath', "//*[@index='1' and @class='android.widget.EditText']") 元素执行输入:13812345678 操作！
+[32mINFO    [0m root:base.py:25 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+[32mINFO    [0m root:base.py:39 正在对：('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素执行清空操作！
+[32mINFO    [0m root:base.py:42 正在对：('xpath', "//*[@index='2' and @class='android.widget.EditText']") 元素执行输入:246810 操作！
+[32mINFO    [0m root:base.py:50 正在对：('xpath', "//*[@text='登录' and @class='android.widget.Button']") 元素执行点击操作！
+[32mINFO    [0m root:base.py:25 正在查找元素：('xpath', "//*[@text='登录' and @class='android.widget.Button']")
+[32mINFO    [0m root:base.py:13 正在初始化driver: <appium.webdriver.webdriver.WebDriver (session="b668c3e2-a869-4e21-b532-b8e2925bc5fa")>
+[32mINFO    [0m root:page_app_article.py:21 正在调用查询文章业务方法 文章频道：python 文章title:Python
+[32mINFO    [0m root:app_base.py:29 正在调用从右向左滑动屏幕方法
+[32mINFO    [0m root:base.py:25 正在查找元素：('xpath', "//*[@class='android.widget.HorizontalScrollView']")
+[31m[1mERROR   [0m root:test06_app_article.py:36 Message:

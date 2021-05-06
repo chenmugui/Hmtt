@@ -1,0 +1,1077 @@
+{
+  "c923f6e70d4b2f3d7599c6390022a18c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "e6566627d4f3c800",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/e6566627d4f3c800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620300628015,
+        "stop" : 1620300640045,
+        "duration" : 12030
+      }
+    }, {
+      "uid" : "5b532e53f2eebec1",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/5b532e53f2eebec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620298823268,
+        "stop" : 1620298827116,
+        "duration" : 3848
+      }
+    }, {
+      "uid" : "47bae41d932968f9",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/47bae41d932968f9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620297489852,
+        "stop" : 1620297522895,
+        "duration" : 33043
+      }
+    }, {
+      "uid" : "f9f9d3de6a695398",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/f9f9d3de6a695398",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620297110387,
+        "stop" : 1620297143267,
+        "duration" : 32880
+      }
+    }, {
+      "uid" : "7b85797f2a5adc27",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/7b85797f2a5adc27",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620296020641,
+        "stop" : 1620296053543,
+        "duration" : 32902
+      }
+    }, {
+      "uid" : "d9f45b4b3d5c348c",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/d9f45b4b3d5c348c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620295632154,
+        "stop" : 1620295641997,
+        "duration" : 9843
+      }
+    }, {
+      "uid" : "a7adf8d3e913e30c",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/a7adf8d3e913e30c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620294404934,
+        "stop" : 1620294437457,
+        "duration" : 32523
+      }
+    } ]
+  },
+  "fe6c468d38a8fcb0c0ed6ab4be5320c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "cec2b3b93d2cf2b0",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/cec2b3b93d2cf2b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595375050,
+        "stop" : 1579595380059,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "9f2d6f5c13e77714",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/9f2d6f5c13e77714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595375050,
+        "stop" : 1579595380059,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "db2b80ad0f8b0365",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/db2b80ad0f8b0365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595375050,
+        "stop" : 1579595380059,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "d15922b47926f6e4",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/d15922b47926f6e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595375050,
+        "stop" : 1579595380059,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "b2e731095c1dd32e",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/b2e731095c1dd32e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595375050,
+        "stop" : 1579595380059,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "9a1e05b798ce1940",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/9a1e05b798ce1940",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595375050,
+        "stop" : 1579595380059,
+        "duration" : 5009
+      }
+    }, {
+      "uid" : "828b2a5092589eec",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/828b2a5092589eec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595375050,
+        "stop" : 1579595380059,
+        "duration" : 5009
+      }
+    } ]
+  },
+  "71b9bdc0e45319d7a524bd6384a645e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "e1a9d819efd1817f",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/e1a9d819efd1817f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731CF864E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620300736579,
+        "stop" : 1620300736579,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b75df8ab7e389cda",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/b75df8ab7e389cda",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA660F7198>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620298924486,
+        "stop" : 1620298924486,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b6b4290fbf1f094f",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/b6b4290fbf1f094f",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E7668C3240>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620297633671,
+        "stop" : 1620297633671,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b8eaa8711c0a91e2",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/b8eaa8711c0a91e2",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA8F4198>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620297243132,
+        "stop" : 1620297243132,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8547d950f785f226",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/8547d950f785f226",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58D8C198>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620296192736,
+        "stop" : 1620296192736,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "66877e071aa53575",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/66877e071aa53575",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E6747CF8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620295763194,
+        "stop" : 1620295763194,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6e4bce6f7a1978d5",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/6e4bce6f7a1978d5",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017788C83128>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620294531048,
+        "stop" : 1620294531048,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dff910e59219f10fae5fdc78ef383a70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "949926c5c53c8648",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/949926c5c53c8648",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163497072,
+        "stop" : 1619163519940,
+        "duration" : 22868
+      }
+    }, {
+      "uid" : "7d66bbf716d19717",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/7d66bbf716d19717",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163497072,
+        "stop" : 1619163519940,
+        "duration" : 22868
+      }
+    }, {
+      "uid" : "6b7ee75ec0763b01",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/6b7ee75ec0763b01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163497072,
+        "stop" : 1619163519940,
+        "duration" : 22868
+      }
+    }, {
+      "uid" : "9f85eb4fb004fb9",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/9f85eb4fb004fb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163497072,
+        "stop" : 1619163519940,
+        "duration" : 22868
+      }
+    }, {
+      "uid" : "862d7b09bf7fce",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/862d7b09bf7fce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163497072,
+        "stop" : 1619163519940,
+        "duration" : 22868
+      }
+    }, {
+      "uid" : "e2a20499f537d528",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/e2a20499f537d528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163497072,
+        "stop" : 1619163519940,
+        "duration" : 22868
+      }
+    }, {
+      "uid" : "b1538d7f35d9966f",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/b1538d7f35d9966f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619163497072,
+        "stop" : 1619163519940,
+        "duration" : 22868
+      }
+    } ]
+  },
+  "47fafc44aba91aacd670403cdf769568" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "c4754c0aa7e2db5e",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/c4754c0aa7e2db5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595392926,
+        "stop" : 1579595397066,
+        "duration" : 4140
+      }
+    }, {
+      "uid" : "4d3fd33c880f8478",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/4d3fd33c880f8478",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595392926,
+        "stop" : 1579595397066,
+        "duration" : 4140
+      }
+    }, {
+      "uid" : "f8d224eba4bb3e51",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/f8d224eba4bb3e51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595392926,
+        "stop" : 1579595397066,
+        "duration" : 4140
+      }
+    }, {
+      "uid" : "dd8eb14bc7ffef04",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/dd8eb14bc7ffef04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595392926,
+        "stop" : 1579595397066,
+        "duration" : 4140
+      }
+    }, {
+      "uid" : "36e0d74a31155c4d",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/36e0d74a31155c4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595392926,
+        "stop" : 1579595397066,
+        "duration" : 4140
+      }
+    }, {
+      "uid" : "d469ebf806a8c114",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/d469ebf806a8c114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595392926,
+        "stop" : 1579595397066,
+        "duration" : 4140
+      }
+    }, {
+      "uid" : "12c463f5f4121ae8",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/12c463f5f4121ae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595392926,
+        "stop" : 1579595397066,
+        "duration" : 4140
+      }
+    } ]
+  },
+  "4b8b01723c57c5ca2339ecefbe1d074e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "ed2185feb0bd8154",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/ed2185feb0bd8154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595413436,
+        "stop" : 1579595435679,
+        "duration" : 22243
+      }
+    }, {
+      "uid" : "20e0533533eb5fb2",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/20e0533533eb5fb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595413436,
+        "stop" : 1579595435679,
+        "duration" : 22243
+      }
+    }, {
+      "uid" : "537deff88f4d911b",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/537deff88f4d911b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595413436,
+        "stop" : 1579595435679,
+        "duration" : 22243
+      }
+    }, {
+      "uid" : "9aaf8212caa05f7f",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/9aaf8212caa05f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595413436,
+        "stop" : 1579595435679,
+        "duration" : 22243
+      }
+    }, {
+      "uid" : "e08c767ee90c45a9",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/e08c767ee90c45a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595413436,
+        "stop" : 1579595435679,
+        "duration" : 22243
+      }
+    }, {
+      "uid" : "5e721ab1a03d5251",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/5e721ab1a03d5251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595413436,
+        "stop" : 1579595435679,
+        "duration" : 22243
+      }
+    }, {
+      "uid" : "1c40519d2dd33ac6",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/1c40519d2dd33ac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595413436,
+        "stop" : 1579595435679,
+        "duration" : 22243
+      }
+    } ]
+  },
+  "c45f31cb580d0384b64d826338ebd0ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "74d142bff5979ce7",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/74d142bff5979ce7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620284453784,
+        "stop" : 1620284486693,
+        "duration" : 32909
+      }
+    }, {
+      "uid" : "1a7e445e4c67671c",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/1a7e445e4c67671c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620284453784,
+        "stop" : 1620284486693,
+        "duration" : 32909
+      }
+    }, {
+      "uid" : "2200f095ee32c18c",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/2200f095ee32c18c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620284453784,
+        "stop" : 1620284486693,
+        "duration" : 32909
+      }
+    }, {
+      "uid" : "fb57a9cfc64bbf96",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/fb57a9cfc64bbf96",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620284453784,
+        "stop" : 1620284486693,
+        "duration" : 32909
+      }
+    }, {
+      "uid" : "24c8856085ebb449",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/24c8856085ebb449",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620284453784,
+        "stop" : 1620284486693,
+        "duration" : 32909
+      }
+    }, {
+      "uid" : "3a1d327039c7fe4a",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/3a1d327039c7fe4a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620284453784,
+        "stop" : 1620284486693,
+        "duration" : 32909
+      }
+    }, {
+      "uid" : "f7ff14ea685d1958",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/f7ff14ea685d1958",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "time" : {
+        "start" : 1620284453784,
+        "stop" : 1620284486693,
+        "duration" : 32909
+      }
+    } ]
+  },
+  "e61f602def897248c0652d1f86ce6bdf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "bd73c0dc978c4dde",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/bd73c0dc978c4dde",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'page' is not defined",
+      "time" : {
+        "start" : 1620300658974,
+        "stop" : 1620300687343,
+        "duration" : 28369
+      }
+    }, {
+      "uid" : "c873ccfa1a420495",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/c873ccfa1a420495",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'page' is not defined",
+      "time" : {
+        "start" : 1620298844603,
+        "stop" : 1620298874837,
+        "duration" : 30234
+      }
+    }, {
+      "uid" : "b501216bd71209e1",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/b501216bd71209e1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1620297542480,
+        "stop" : 1620297574721,
+        "duration" : 32241
+      }
+    }, {
+      "uid" : "c44e62e4b7464aa",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/c44e62e4b7464aa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1620297160620,
+        "stop" : 1620297192967,
+        "duration" : 32347
+      }
+    }, {
+      "uid" : "93cb8d10fa35fc93",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/93cb8d10fa35fc93",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'page' is not defined",
+      "time" : {
+        "start" : 1620296076172,
+        "stop" : 1620296105183,
+        "duration" : 29011
+      }
+    }, {
+      "uid" : "cf3fba50eeefa61c",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/cf3fba50eeefa61c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1620295671051,
+        "stop" : 1620295703190,
+        "duration" : 32139
+      }
+    }, {
+      "uid" : "3d22553ac556d9b8",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/3d22553ac556d9b8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1620294450566,
+        "stop" : 1620294483054,
+        "duration" : 32488
+      }
+    } ]
+  },
+  "4e8bb84a8e90557aea83afed111d7fc0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "f192f24d96a9038e",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/f192f24d96a9038e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595380288,
+        "stop" : 1579595392848,
+        "duration" : 12560
+      }
+    }, {
+      "uid" : "c145185676fcf39f",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/c145185676fcf39f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595380288,
+        "stop" : 1579595392848,
+        "duration" : 12560
+      }
+    }, {
+      "uid" : "327e601256f79df1",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/327e601256f79df1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595380288,
+        "stop" : 1579595392848,
+        "duration" : 12560
+      }
+    }, {
+      "uid" : "c0cb27a5b8c72ff5",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/c0cb27a5b8c72ff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595380288,
+        "stop" : 1579595392848,
+        "duration" : 12560
+      }
+    }, {
+      "uid" : "5b2d305c5f88ae29",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/5b2d305c5f88ae29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595380288,
+        "stop" : 1579595392848,
+        "duration" : 12560
+      }
+    }, {
+      "uid" : "34904366e074f300",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/34904366e074f300",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595380288,
+        "stop" : 1579595392848,
+        "duration" : 12560
+      }
+    }, {
+      "uid" : "1d2f5a327d20dad5",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/1d2f5a327d20dad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595380288,
+        "stop" : 1579595392848,
+        "duration" : 12560
+      }
+    } ]
+  },
+  "62e919085beccdf6eda9d2a09989954b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "3a841cf1f1a60db2",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/3a841cf1f1a60db2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595397136,
+        "stop" : 1579595413361,
+        "duration" : 16225
+      }
+    }, {
+      "uid" : "e597f503c4589dbf",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/e597f503c4589dbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595397136,
+        "stop" : 1579595413361,
+        "duration" : 16225
+      }
+    }, {
+      "uid" : "523d742cac11f101",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/523d742cac11f101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595397136,
+        "stop" : 1579595413361,
+        "duration" : 16225
+      }
+    }, {
+      "uid" : "a1448656a3ad325c",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/a1448656a3ad325c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595397136,
+        "stop" : 1579595413361,
+        "duration" : 16225
+      }
+    }, {
+      "uid" : "5fea2cd1e793b848",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/5fea2cd1e793b848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595397136,
+        "stop" : 1579595413361,
+        "duration" : 16225
+      }
+    }, {
+      "uid" : "18cd6fedf34d7d56",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/18cd6fedf34d7d56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595397136,
+        "stop" : 1579595413361,
+        "duration" : 16225
+      }
+    }, {
+      "uid" : "ea25d154a998e2b5",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/ea25d154a998e2b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595397136,
+        "stop" : 1579595413361,
+        "duration" : 16225
+      }
+    } ]
+  },
+  "9882f7a913a37e1c698f7c88bfc6c7ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "192302ab174b00d9",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/192302ab174b00d9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1620300719350,
+        "stop" : 1620300724036,
+        "duration" : 4686
+      }
+    }, {
+      "uid" : "bc7cfd8232e3a381",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/bc7cfd8232e3a381",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1620298908267,
+        "stop" : 1620298911245,
+        "duration" : 2978
+      }
+    }, {
+      "uid" : "ea7d812b8766575",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/ea7d812b8766575",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1620297608672,
+        "stop" : 1620297615122,
+        "duration" : 6450
+      }
+    }, {
+      "uid" : "f75697030262746",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/f75697030262746",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1620297226640,
+        "stop" : 1620297230039,
+        "duration" : 3399
+      }
+    }, {
+      "uid" : "b9402aa4ea47c543",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/b9402aa4ea47c543",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1620296176689,
+        "stop" : 1620296179749,
+        "duration" : 3060
+      }
+    }, {
+      "uid" : "23771a9ce42b4477",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/23771a9ce42b4477",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1620295743382,
+        "stop" : 1620295750429,
+        "duration" : 7047
+      }
+    }, {
+      "uid" : "a3d338b8b5dba3dd",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/a3d338b8b5dba3dd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "time" : {
+        "start" : 1620294512870,
+        "stop" : 1620294517982,
+        "duration" : 5112
+      }
+    } ]
+  },
+  "87eb80fa31d9cd01473353393974ce3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "a73c1eb104daecb8",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/a73c1eb104daecb8",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731C457CF8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620300726923,
+        "stop" : 1620300726923,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "80d243bac77515cb",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/80d243bac77515cb",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BA65601128>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620298914863,
+        "stop" : 1620298914863,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f0c4c92818745f86",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/f0c4c92818745f86",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E766516AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620297623486,
+        "stop" : 1620297623486,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "991653da9ddce19e",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/991653da9ddce19e",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020DCA5689B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620297233004,
+        "stop" : 1620297233004,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "19c2308dc650c7a6",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/19c2308dc650c7a6",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A58A5AC88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620296182989,
+        "stop" : 1620296182989,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "22bf4aa6c489365e",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/22bf4aa6c489365e",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000154E641B4E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620295753630,
+        "stop" : 1620295753630,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d4b1b56f273cb47",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/6d4b1b56f273cb47",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017788A586A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620294520676,
+        "stop" : 1620294520676,
+        "duration" : 0
+      }
+    } ]
+  },
+  "151b53995438ea5f53433873d68a666e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "c3e99c95cde04a30",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/c3e99c95cde04a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620300701894,
+        "stop" : 1620300704532,
+        "duration" : 2638
+      }
+    }, {
+      "uid" : "a5ab8c578a9b304",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/a5ab8c578a9b304",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620298890252,
+        "stop" : 1620298893038,
+        "duration" : 2786
+      }
+    }, {
+      "uid" : "fb8d6a72295f78d",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/fb8d6a72295f78d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620297589853,
+        "stop" : 1620297593259,
+        "duration" : 3406
+      }
+    }, {
+      "uid" : "da0519bdee36c6a3",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/da0519bdee36c6a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620297208083,
+        "stop" : 1620297211135,
+        "duration" : 3052
+      }
+    }, {
+      "uid" : "6bd1248bd6da1768",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/6bd1248bd6da1768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620296149954,
+        "stop" : 1620296159114,
+        "duration" : 9160
+      }
+    }, {
+      "uid" : "ebcfc161c9d18311",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/ebcfc161c9d18311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620295729560,
+        "stop" : 1620295731083,
+        "duration" : 1523
+      }
+    }, {
+      "uid" : "fcd99db1429140b4",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/fcd99db1429140b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620294494999,
+        "stop" : 1620294496514,
+        "duration" : 1515
+      }
+    } ]
+  },
+  "793207f9edcb766ea85bbd4b634413ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "6adf36edbd525617",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure/#testresult/6adf36edbd525617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595437940,
+        "stop" : 1579595470693,
+        "duration" : 32753
+      }
+    }, {
+      "uid" : "4b9fa1659a808195",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure/#testresult/4b9fa1659a808195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595437940,
+        "stop" : 1579595470693,
+        "duration" : 32753
+      }
+    }, {
+      "uid" : "149bba0ccbf6b7f5",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure/#testresult/149bba0ccbf6b7f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595437940,
+        "stop" : 1579595470693,
+        "duration" : 32753
+      }
+    }, {
+      "uid" : "e185a4d99123ad5a",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure/#testresult/e185a4d99123ad5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595437940,
+        "stop" : 1579595470693,
+        "duration" : 32753
+      }
+    }, {
+      "uid" : "1b8968cc926108a9",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure/#testresult/1b8968cc926108a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595437940,
+        "stop" : 1579595470693,
+        "duration" : 32753
+      }
+    }, {
+      "uid" : "4c78fb2d3ec973ee",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure/#testresult/4c78fb2d3ec973ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595437940,
+        "stop" : 1579595470693,
+        "duration" : 32753
+      }
+    }, {
+      "uid" : "5cc082cfb66ee47",
+      "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure/#testresult/5cc082cfb66ee47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579595437940,
+        "stop" : 1579595470693,
+        "duration" : 32753
+      }
+    } ]
+  }
+}

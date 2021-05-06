@@ -1,0 +1,141 @@
+[ {
+  "uid" : "192302ab174b00d9",
+  "name" : "test_mis_audit",
+  "time" : {
+    "start" : 1620300719350,
+    "stop" : 1620300724036,
+    "duration" : 4686
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "74d142bff5979ce7",
+  "name" : "test_mp_login[13812345678-246810-13812345678]",
+  "time" : {
+    "start" : 1620284453784,
+    "stop" : 1620284486693,
+    "duration" : 32909
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bd73c0dc978c4dde",
+  "name" : "test_mp_article[test002-bj002-今天炖火锅!-新增文章成功-数据库]",
+  "time" : {
+    "start" : 1620300658974,
+    "stop" : 1620300687343,
+    "duration" : 28369
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6adf36edbd525617",
+  "name" : "TestAppArticle.test_app_article[python-Python]",
+  "time" : {
+    "start" : 1579595437940,
+    "stop" : 1579595470693,
+    "duration" : 32753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cec2b3b93d2cf2b0",
+  "name" : "TestMpLogin.test_mp_login[13812345678-246810-13812345678]",
+  "time" : {
+    "start" : 1579595375050,
+    "stop" : 1579595380059,
+    "duration" : 5009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "949926c5c53c8648",
+  "name" : "test_app_login[13812345678-246810]",
+  "time" : {
+    "start" : 1619163497072,
+    "stop" : 1619163519940,
+    "duration" : 22868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1a9d819efd1817f",
+  "name" : "test_app_article[python-Python]",
+  "time" : {
+    "start" : 1620300736579,
+    "stop" : 1620300736579,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c3e99c95cde04a30",
+  "name" : "test_mis_login[testid-testpwd123-管理员]",
+  "time" : {
+    "start" : 1620300701894,
+    "stop" : 1620300704532,
+    "duration" : 2638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4754c0aa7e2db5e",
+  "name" : "TestMisLogin.test_mis_login[testid-testpwd123-\\u7ba1\\u7406\\u5458]",
+  "time" : {
+    "start" : 1579595392926,
+    "stop" : 1579595397066,
+    "duration" : 4140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a73c1eb104daecb8",
+  "name" : "test_app_login[13812345678-246811]",
+  "time" : {
+    "start" : 1620300726923,
+    "stop" : 1620300726923,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a841cf1f1a60db2",
+  "name" : "TestMisAudit.test_mis_audit",
+  "time" : {
+    "start" : 1579595397136,
+    "stop" : 1579595413361,
+    "duration" : 16225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed2185feb0bd8154",
+  "name" : "TestAppLogin.test_app_login[13812345678-246810]",
+  "time" : {
+    "start" : 1579595413436,
+    "stop" : 1579595435679,
+    "duration" : 22243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f192f24d96a9038e",
+  "name" : "TestMpArticle.test_mp_article[test002-bj002-\\u4eca\\u5929\\u7096\\u706b\\u9505!-\\u65b0\\u589e\\u6587\\u7ae0\\u6210\\u529f-\\u6570\\u636e\\u5e93]",
+  "time" : {
+    "start" : 1579595380288,
+    "stop" : 1579595392848,
+    "duration" : 12560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6566627d4f3c800",
+  "name" : "test_mp_login[13812345678-246811-13812345678]",
+  "time" : {
+    "start" : 1620300628015,
+    "stop" : 1620300640045,
+    "duration" : 12030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

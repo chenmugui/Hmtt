@@ -1,0 +1,25 @@
+INFO     root:base.py:13 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3b2e902c48b06c8e7a6b855ed35cd1ea")>
+INFO     root:page_mp_login.py:43 正在调用自媒体登录业务方法，用户名：13812345678 密码：246811
+INFO     root:base.py:25 正在查找元素：('css selector', "[placeholder='请输入手机号']")
+INFO     root:base.py:39 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行清空操作！
+INFO     root:base.py:42 正在对：('css selector', "[placeholder='请输入手机号']") 元素执行输入:13812345678 操作！
+INFO     root:base.py:25 正在查找元素：('css selector', "[placeholder='验证码']")
+INFO     root:base.py:39 正在对：('css selector', "[placeholder='验证码']") 元素执行清空操作！
+INFO     root:base.py:42 正在对：('css selector', "[placeholder='验证码']") 元素执行输入:246811 操作！
+INFO     root:base.py:50 正在对：('css selector', '.el-button--primary') 元素执行点击操作！
+INFO     root:base.py:25 正在查找元素：('css selector', '.el-button--primary')
+INFO     root:base.py:13 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="3b2e902c48b06c8e7a6b855ed35cd1ea")>
+INFO     root:page_mp_article.py:58 正在调用发布文章业务方法，文章标题：test002-bj002 文章内容：今天炖火锅!
+INFO     root:base.py:50 正在对：('xpath', "//span[text()='内容管理']/..") 元素执行点击操作！
+INFO     root:base.py:25 正在查找元素：('xpath', "//span[text()='内容管理']/..")
+INFO     root:base.py:50 正在对：('xpath', "//*[contains(text(),'发布文章')]") 元素执行点击操作！
+INFO     root:base.py:25 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+INFO     root:base.py:25 正在查找元素：('css selector', "[placeholder='文章名称']")
+INFO     root:base.py:39 正在对：('css selector', "[placeholder='文章名称']") 元素执行清空操作！
+INFO     root:base.py:42 正在对：('css selector', "[placeholder='文章名称']") 元素执行输入:test002-bj002 操作！
+INFO     root:base.py:25 正在查找元素：('css selector', '#publishTinymce_ifr')
+INFO     root:base.py:25 正在查找元素：('css selector', '#tinymce')
+INFO     root:base.py:39 正在对：('css selector', '#tinymce') 元素执行清空操作！
+INFO     root:base.py:42 正在对：('css selector', '#tinymce') 元素执行输入:今天炖火锅! 操作！
+INFO     root:base.py:50 正在对：('xpath', "//*[text()='自动']") 元素执行点击操作！
+INFO     root:base.py:25 正在查找元素：('xpath', "//*[text()='自动']")

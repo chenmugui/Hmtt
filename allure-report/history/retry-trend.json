@@ -1,0 +1,57 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 71
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 65
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 59
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 53
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 47
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 41
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 14,
+    "retry" : 35
+  }
+} ]

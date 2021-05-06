@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: module 'allure' has no attribute 'attach_type'",
+      "children" : [ {
+        "name" : "test_mp_login[13812345678-246810-13812345678]",
+        "uid" : "74d142bff5979ce7",
+        "parentUid" : "4b2e6e623fd75a604ca5be10a511e9fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620284453784,
+          "stop" : 1620284486693,
+          "duration" : 32909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'246810'", "'13812345678'", "'13812345678'" ]
+      } ],
+      "uid" : "4b2e6e623fd75a604ca5be10a511e9fa"
+    }, {
+      "name" : "NameError: name 'page' is not defined",
+      "children" : [ {
+        "name" : "test_mp_article[test002-bj002-今天炖火锅!-新增文章成功-数据库]",
+        "uid" : "bd73c0dc978c4dde",
+        "parentUid" : "7cc7b809c81e83e169bf6b308baf083a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300658974,
+          "stop" : 1620300687343,
+          "duration" : 28369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'数据库'", "'今天炖火锅!'", "'新增文章成功'", "'test002-bj002'" ]
+      } ],
+      "uid" : "7cc7b809c81e83e169bf6b308baf083a"
+    }, {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=87.0.4280.88)",
+      "children" : [ {
+        "name" : "test_mis_audit",
+        "uid" : "192302ab174b00d9",
+        "parentUid" : "50e21ecfa9ae35870ff324a09431e22b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300719350,
+          "stop" : 1620300724036,
+          "duration" : 4686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50e21ecfa9ae35870ff324a09431e22b"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731C457CF8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_app_login[13812345678-246811]",
+        "uid" : "a73c1eb104daecb8",
+        "parentUid" : "2c250d6f13a6f743e0d398ce93e1c155",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300726923,
+          "stop" : 1620300726923,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'246811'", "'13812345678'" ]
+      } ],
+      "uid" : "2c250d6f13a6f743e0d398ce93e1c155"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002731CF864E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_app_article[python-Python]",
+        "uid" : "e1a9d819efd1817f",
+        "parentUid" : "36088e6ed8471c27bebf974b60014775",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620300736579,
+          "stop" : 1620300736579,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'python'", "'Python'" ]
+      } ],
+      "uid" : "36088e6ed8471c27bebf974b60014775"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

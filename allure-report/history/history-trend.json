@@ -1,0 +1,85 @@
+[ {
+  "buildOrder" : 13,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 5,
+    "skipped" : 0,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/12/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 5,
+    "skipped" : 0,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 6,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 6,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 6,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 5,
+    "skipped" : 0,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://127.0.0.1:8080/job/uiAutoHmtt/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 6,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 14
+  }
+} ]
